@@ -54,7 +54,7 @@ function! airline#themes#PaperColor#refresh()
     let s:IA = [ '#585858' , '#e4e4e4' , 251 , 237 , '' ]
     let g:airline#themes#PaperColor#palette.inactive = airline#themes#generate_color_map(s:IA, s:IA, s:IA)
     let g:airline#themes#PaperColor#palette.inactive_modified = {
-          \ 'airline_c': [ '#585858' , '#e4e4e4' , 240 , 254 , '' ] ,
+          \ 'airline_c': [ '#585858' , '#a8a8a8' , 240 , 248 , '' ] ,
           \ }
 
 
@@ -113,7 +113,7 @@ function! airline#themes#PaperColor#refresh()
           \ }
 
     " Inactive:
-    let s:IA = [ '#585858' , '#e4e4e4' , 240 , 254 , '' ]
+    let s:IA = [ '#585858' , '#b2b2b2' , 240 , 249 , '' ]
     let g:airline#themes#PaperColor#palette.inactive = airline#themes#generate_color_map(s:IA, s:IA, s:IA)
     let g:airline#themes#PaperColor#palette.inactive_modified = {
           \ 'airline_c': [ '#585858' , '#e4e4e4' , 240 , 254 , '' ] ,
